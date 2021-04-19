@@ -53,8 +53,8 @@ export default function App() {
             {
                 loading ? 
                     (
-                        <div className="loader">
-                            <div className="loaderBar"></div>
+                        <div className={classes.loader}>
+                            <div className={classes.loaderBar}></div>
                         </div>
                     ) 
                 : 
